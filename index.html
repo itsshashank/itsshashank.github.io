@@ -78,7 +78,7 @@
   <div class="footer-copyright" style="text-align:center;color:white">
         <section class="section section-b">
         <div class="container">
-            <p>© 2017 shashank-sj</h2>
+            <p>© 2018 shashank-sj</h2>
         </div>
         </section>
       </div>
@@ -94,6 +94,21 @@
                 });
             }
         });
+    });
+    $(document).ready(function() {
+    $("a").click(function() {
+        $.ajax({
+            type: "GET",
+            url: "window.location.href",
+            datatype: "xml",
+            error: function(jqXHR, textStatus, errorThrown) {
+                if (jqXHR.status == 404) {
+                    $(this).load("error.html");
+                }
+            },
+            success: //don't do anything. just visit the page
+    )};
+    });
     });
     </script>
     
