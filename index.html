@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Shashank Babu, shashank-sj, web developer, web development, web designing, portfolio, front-end, job, internship, engineer, resume, fresher, featured work, interview, online cv, Shashank Babu portfolio, Shashank Babu portfolio, Shashank Babu resume, shashank-sj portfolio">
+    <meta name="author" content="Shashank Babu">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio| Its-Shashank</title>
@@ -15,20 +17,23 @@
   </head>
 
   <body>
+    
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 			<script>
 			  AOS.init();
 			</script>
     <section class="hero is-info is-fullheight is-fullheight-with-navbar">
       <nav class="navbar is-fixed-top">
-        <div class="navbar-brand">
-          <div class="navbar-burger burger" data-target="mini-menu">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="container">
+          <div class="navbar-brand">
+              <span class="navbar-burger burger" data-target="navbarMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </span>
           </div>
-          <div id="mini-menu" class="navbar-menu">
-            <div class="navbar-end">
+          <div id="navbarMenu" class="navbar-menu">
+              <div class="navbar-end">
               <a class="navbar-item" href="#about">
                 <span class="icon">
                   <i class="fas fa-code"></i>
@@ -55,7 +60,6 @@
               </a>
             </div>
           </div>
-        </div>
       </nav>
       <div class="hero-body">
         <div class="container">
@@ -66,54 +70,37 @@
           <h2 class="subtitle is-3">
             Computer Science Enthustatic, Developer<br> and OpenSource Lover
           </h2>
+          <div class="center is-centered">
+              <a class="is-link" href="https://github.com/shashank-sj">
+                  <span class="icon">
+                      <i class="fab fa-github fa-3x"></i>
+                  </span>
+              </a>
+              <a class="is-link" href="https://www.linkedin.com/in/shashank-babu-428a18124/">
+                <span class="icon">
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                </span>
+            </a>
+            <a class="is-link" href="https://www.linkedin.com/in/shashank-babu-428a18124/">
+              <span class="icon">
+                  <i class="fab fa-twitter fa-3x"></i>
+              </span>
+          </a>
+        </div>
         </div>
       </div>
     </section>
-    <section class="section is-fullheight-with-navbar" id="about">
-      <nav class="navbar is-transparent is-fixed-top">
-        <div class="navbar-brand">
-          <div class="navbar-burger burger" data-target="mini-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div id="mini-menu" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item" href="#about">
-                <span class="icon">
-                  <i class="fas fa-code"></i>
-                </span>
-                <span>About</span>
-              </a>
-              <a class="navbar-item" href="#resume">
-              <span class="icon">
-                <i class="fas fa-file-alt"></i>
-              </span>
-              <span>Resume</span>
-              </a>
-              <a class="navbar-item" href="#portfolio">
-              <span class="icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span>Portfolio</span>
-              </a>
-              <a class="navbar-item" href="#contact">
-              <span class="icon">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span>Contact</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <section class="section is-fullheight" id="about">
+      
       <div class="section-heading">
         <h3 class="title is-2">About me</h3>
         <div class="container">
-          <figure style="float: left" class="image is-128x128">
-            <img class="is-rounded" src="Assets/me.jpg" alt="Placeholder image">
-          </figure>  
-          <h2 style="float:right">I am a Computer Science junior at <strong>Rajiv Gandhi Institute of Technology</strong>, Kottayam.
+            <figure  class="image is-128x128">
+                <img class="is-rounded" src="Assets/me.jpg" alt="Placeholder image">
+            </figure>
+        </div>
+        <div class="container">
+          <h2>I am a Computer Science junior at <strong>Rajiv Gandhi Institute of Technology</strong>, Kottayam.
             I am an active member of various tech clubs in my college.<br>
             My areas of interest are <strong>Artificial Intelegence</strong> and their applications in improving our lives. 
             <br>I am a fan of technology, entrepreneurship, and coffee.
@@ -146,23 +133,6 @@
                     </tr>
                   </table>
                 </div>
-                <div class="center is-centered">
-                    <a class="is-link" href="https://github.com/shashank-sj">
-                        <span class="icon">
-                            <i class="fab fa-github fa-3x"></i>
-                        </span>
-                    </a>
-                    <a class="is-link" href="https://www.linkedin.com/in/shashank-babu-428a18124/">
-                      <span class="icon">
-                          <i class="fab fa-linkedin-in fa-3x"></i>
-                      </span>
-                  </a>
-                  <a class="is-link" href="https://www.linkedin.com/in/shashank-babu-428a18124/">
-                    <span class="icon">
-                        <i class="fab fa-twitter fa-3x"></i>
-                    </span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -221,9 +191,10 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
   </body>
-  <div data-aos="flip-up" >
+  <div data-aos="fade-up" >
     <footer class="footer is-info">
         <div class="container has-text-centered single-spaced">
             <h2 class="subtitle is-3">Made with <strike>love</strike> a keyboard</h2>
