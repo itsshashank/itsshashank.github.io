@@ -249,8 +249,8 @@ footer {
     background-size: cover;
 }
 .layer{
-    background-image: url(/Assets/animation.svg);
+    background-image: url(./Assets/animation.svg);
 }
 .error{
-    background-image: url(/Assets/404.svg);
+    background-image: url(./Assets/404.svg);
 }
