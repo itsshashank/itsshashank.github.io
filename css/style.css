@@ -87,6 +87,7 @@ section:focus {
 
 #resume .timeline-ico i {
     float: left;
+    background-color: white;
 }
 
 .fa {
@@ -239,4 +240,17 @@ footer {
     .social-media {
         display: none
     }
+}
+.spacer{
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer{
+    background-image: url(/Assets/animation.svg);
+}
+.error{
+    background-image: url(/Assets/404.svg);
 }
