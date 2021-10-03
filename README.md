@@ -1,2 +1,2 @@
 # My Personal Website
-Link : http://shashanksj.ml/
+Link : https://shashank-sj.github.io/
